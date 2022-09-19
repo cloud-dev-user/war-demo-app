@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>Hello Docker!! lets meet K8s</h2>
 </body>
 </html>
