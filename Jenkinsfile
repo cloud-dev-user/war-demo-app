@@ -23,7 +23,7 @@ pipeline {
 
     stage('deploy to tomcat ') {
       steps {
-        sh 'cp /tmp/devops.war /home/kulkarav/tomcat9/'
+        sh 'cp /tmp/devops.war /home/kulkarav/tomcat9/webapps/'
       }
     }
 
