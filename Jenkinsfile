@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('CI stage ') {
       steps {
-        sh 'mvn clean package '
+        sh 'mvn clean deploy'
       }
     }
 
