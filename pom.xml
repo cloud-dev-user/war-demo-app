@@ -6,7 +6,7 @@
 
   <groupId>learnwell.com</groupId>
   <artifactId>devops</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>devops Maven Webapp</name>
