@@ -26,7 +26,7 @@ pipeline {
 
     stage('deploy to tomcat ') {
       steps {
-        sh 'cp /tmp/devops.war /home/kulkarav/tomcat9/webapps/'
+        sh "cp /tmp/devops.war /home/kulkarav/${environment}/tomcat9/webapps/"
       }
     }
 
