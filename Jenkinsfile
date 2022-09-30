@@ -3,8 +3,11 @@ pipeline {
     node {
       label 'node_1.4'
     }
-
+    
   }
+  parameters {
+  choice choices: ['DEV', 'TEST', 'PROD'], name: 'environment'
+}
   stages {
     stage('CI stage ') {
       steps {
