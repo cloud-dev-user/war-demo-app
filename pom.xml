@@ -67,8 +67,11 @@
   <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>a0ohnmlkyhm9i-artifactory-primary-0-snapshots</name>
         <url>https://devopsusa.jfrog.io/artifactory/devops-libs-snapshot</url>
     </snapshotRepository>
+    <repository>
+        <id>release</id>
+        <url>https://devopsusa.jfrog.io/artifactory/devops-libs-release</url>
+    </repository>
 </distributionManagement>
 </project>
