@@ -64,14 +64,15 @@
       </plugins>
     </pluginManagement>
   </build>
+  
   <distributionManagement>
     <snapshotRepository>
-        <id>snapshots</id>
-        <url>https://devopsusa.jfrog.io/artifactory/devops-libs-snapshot</url>
+      <id>snapshots</id>
+      <url>https://devopsusa.jfrog.io/artifactory/devops-libs-snapshot</url>
     </snapshotRepository>
     <repository>
-        <id>release</id>
-        <url>https://devopsusa.jfrog.io/artifactory/devops-libs-release</url>
+      <id>release</id>
+      <url>https://devopsusa.jfrog.io/artifactory/devops-libs-release</url>
     </repository>
   </distributionManagement>
 </project>
