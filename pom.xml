@@ -73,5 +73,5 @@
         <id>release</id>
         <url>https://devopsusa.jfrog.io/artifactory/devops-libs-release</url>
     </repository>
-</distributionManagement>
+  </distributionManagement>
 </project>
