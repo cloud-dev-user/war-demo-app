@@ -8,7 +8,7 @@ pipeline{
             }
 		    stage("build code") {
 		     steps {
-		         sh "mvn install" 
+		         sh "mvn deploy" 
 		         }
             }  
 		 }
